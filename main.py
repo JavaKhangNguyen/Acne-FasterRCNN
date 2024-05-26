@@ -10,7 +10,7 @@ print(HOME)
 os.chdir(path)
 
 """## Train model"""
-subprocess.run([sys.executable, 'train.py','--model', 'fasterrcnn_resnet50_fpn', '--disable-wandb','--epochs', '190', '--batch', '8', '--imgsz', '800', '--lr', '0.0009', '--data', data, '--name', 'fasterRCNN_acne'])
+subprocess.run([sys.executable, 'train.py','--model', 'fasterrcnn_resnet50_fpn', '--disable-wandb','--epochs', '150', '--batch', '8', '--imgsz', '800', '--lr', '0.0009', '--data', data, '--name', 'fasterRCNN_acne'])
 
 
 """## Validating model"""
