@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>blackhead_581_jpg.rf.90331f1b66a19a74e4627894067e8d63.jpg</filename>
+	<path>blackhead_581_jpg.rf.90331f1b66a19a74e4627894067e8d63.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blackhead</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>338</xmin>
+			<xmax>407</xmax>
+			<ymin>138</ymin>
+			<ymax>200</ymax>
+		</bndbox>
+	</object>
+</annotation>

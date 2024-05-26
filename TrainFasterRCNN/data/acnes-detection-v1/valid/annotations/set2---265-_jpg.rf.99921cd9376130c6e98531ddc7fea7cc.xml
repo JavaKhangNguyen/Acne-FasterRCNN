@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>set2---265-_jpg.rf.99921cd9376130c6e98531ddc7fea7cc.jpg</filename>
+	<path>set2---265-_jpg.rf.99921cd9376130c6e98531ddc7fea7cc.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>487</width>
+		<height>476</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>purulent</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>224</xmin>
+			<xmax>270</xmax>
+			<ymin>197</ymin>
+			<ymax>239</ymax>
+		</bndbox>
+	</object>
+</annotation>
