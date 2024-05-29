@@ -3,9 +3,9 @@
 #SBATCH --job-name=fasterCNN
 #SBATCH --nodes=1                
 #SBATCH --ntasks=1     
-#SBATCH --cpus-per-task=8      
+#SBATCH --cpus-per-task=4      
 #SBATCH --mem=64G   
-#SBATCH --partition=a100    
+#SBATCH --partition=amd    
 #SBATCH --gres=gpu:2    
 #SBATCH --time=2-00:00:00       
 #SBATCH --output=fasterCNN%j.out   
