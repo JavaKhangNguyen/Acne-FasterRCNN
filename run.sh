@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1     
 #SBATCH --cpus-per-task=4      
 #SBATCH --mem=64G   
-#SBATCH --partition=amd    
+#SBATCH --partition=a100    
 #SBATCH --gres=gpu:2    
 #SBATCH --time=2-00:00:00       
 #SBATCH --output=fasterCNN%j.out   
