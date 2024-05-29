@@ -4,7 +4,7 @@
 #SBATCH --nodes=1                
 #SBATCH --ntasks=1     
 #SBATCH --cpus-per-task=4      
-#SBATCH --mem=168G   
+#SBATCH --mem=64G   
 #SBATCH --partition=gtx1080    
 #SBATCH --gres=gpu:3    
 #SBATCH --time=2-00:00:00       
