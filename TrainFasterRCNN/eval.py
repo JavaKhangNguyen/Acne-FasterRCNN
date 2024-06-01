@@ -101,9 +101,9 @@ if __name__ == '__main__':
     create_model = create_model[args['model']]
     if args['weights'] is None:
         try:
-            model, coco_model = create_model(num_classes=NUM_CLASSES, coco_model=True)
+            model, coco_model = create_model(pretrained=True,num_classes=NUM_CLASSES, coco_model=True)
         except:
-            model = create_model(num_classes=NUM_CLASSES, coco_model=True)
+            model = create_model(pretrained=False,num_classes=NUM_CLASSES, coco_model=True)
         if coco_model:
             COCO_91_CLASSES = data_configs['COCO_91_CLASSES']
             valid_dataset = create_valid_dataset(
