@@ -2,7 +2,7 @@ import torchvision
 import torch
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 
-def create_model(num_classes, coco_model=False):
+def create_model(pretrained=True, num_classes, coco_model=False):
     # Load Faster RCNN pre-trained model
     model = torchvision.models.detection.fasterrcnn_resnet50_fpn(
         pretrained=False, pretrained_backbone = False, num_classes = 91
@@ -23,5 +23,5 @@ def create_model(num_classes, coco_model=False):
 
 if __name__ == '__main__':
     from model_summary import summary
-    model = create_model(num_classes=81, coco_model=True)
+    model = create_model(pretrained=True, num_classes=81, coco_model=True)
     summary(model)
